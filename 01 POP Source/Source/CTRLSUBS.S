@@ -98,15 +98,15 @@ org = $d000
 
 *-------------------------------
  lst
- put eq
+ put EQ
  lst
- put gameeq
+ put GAMEEQ
  lst
- put movedata
+ put MOVEDATA
  lst
- put seqdata
+ put SEQDATA
  lst
- put soundnames
+ put SOUNDNAMES
  lst off
 
 *-------------------------------

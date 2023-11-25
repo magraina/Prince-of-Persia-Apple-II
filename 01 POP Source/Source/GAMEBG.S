@@ -51,9 +51,9 @@ org = $4c00
 
 *-------------------------------
  lst
- put eq
+ put EQ
  lst
- put gameeq
+ put GAMEEQ
  lst off
 
 *-------------------------------
@@ -68,12 +68,12 @@ YELLOW lda #$80
  rts
 
  else
- put ryellow1
+ put RYELLOW1
  fin
 
 *-------------------------------
  lst
- put movedata
+ put MOVEDATA
  lst off
 
 *-------------------------------

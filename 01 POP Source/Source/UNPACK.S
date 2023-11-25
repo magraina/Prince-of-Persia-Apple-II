@@ -28,9 +28,9 @@ org = $ea00
 
 *-------------------------------
  lst
- put gameeq
+ put GAMEEQ
  lst
- put eq
+ put EQ
  lst off
 
 IOUDISoff = $c07f
@@ -510,7 +510,7 @@ NoAuxSet lda ByteHld
 PURPLE rts
 
  else
- put purple
+ put PURPLE
  fin
 
 *-------------------------------

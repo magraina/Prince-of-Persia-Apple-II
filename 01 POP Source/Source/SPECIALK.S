@@ -42,13 +42,13 @@ org = $d900
 
 *-------------------------------
  lst
- put eq
+ put EQ
  lst
- put gameeq
+ put GAMEEQ
  lst
- put soundnames
+ put SOUNDNAMES
  lst
- put movedata
+ put MOVEDATA
  lst off
 
 *-------------------------------

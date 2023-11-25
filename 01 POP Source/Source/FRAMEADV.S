@@ -12,11 +12,11 @@ org = $1290
 
 *-------------------------------
  lst
- put eq
+ put EQ
  lst
- put gameeq
+ put GAMEEQ
  lst off
- put bgdata
+ put BGDATA
  lst off
 
 initsettings

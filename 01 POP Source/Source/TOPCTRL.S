@@ -25,15 +25,15 @@ ThreeFive = 1 ;3.5" disk?
 
 *-------------------------------
  lst
- put eq
+ put EQ
  lst
- put gameeq
+ put GAMEEQ
  lst
- put seqdata
+ put SEQDATA
  lst
- put movedata
+ put MOVEDATA
  lst
- put soundnames
+ put SOUNDNAMES
  lst off
 
 *-------------------------------

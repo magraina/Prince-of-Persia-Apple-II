@@ -113,11 +113,11 @@ VBLvect jmp VBLANK ;changed by InitVBLANK if IIc
 
 *-------------------------------
  lst
- put eq
+ put EQ
  lst
- put gameeq
+ put GAMEEQ
  lst
- put soundnames
+ put SOUNDNAMES
  lst off
 *-------------------------------
  dum locals

@@ -32,9 +32,9 @@ org = $f880
 
 *-------------------------------
  lst
- put eq
+ put EQ
  lst
- put gameeq
+ put GAMEEQ
  lst off
 
 Tmoveauxlc = moveauxlc-$b000

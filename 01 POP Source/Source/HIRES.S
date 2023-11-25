@@ -32,7 +32,7 @@ org = $ee00
  jmp INVERTY
 
 *-------------------------------
- put hrparams
+ put HRPARAMS
 
 *-------------------------------
 boot3 = $f880 ;stage 3 boot

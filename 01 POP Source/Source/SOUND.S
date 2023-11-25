@@ -16,9 +16,9 @@ savex ds 1
 spkr = $c030
 
 *-------------------------------
- put soundnames
- put gameeq
- put eq
+ put SOUNDNAMES
+ put GAMEEQ
+ put EQ
 
 *-------------------------------
 *

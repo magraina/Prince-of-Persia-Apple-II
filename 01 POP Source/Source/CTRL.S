@@ -17,15 +17,15 @@ org = $3a00
 
 *-------------------------------
  lst
- put eq
+ put EQ
  lst
- put gameeq
+ put GAMEEQ
  lst
- put seqdata
+ put SEQDATA
  lst
- put soundnames
+ put SOUNDNAMES
  lst
- put movedata
+ put MOVEDATA
  lst off
 
  dum $f0
