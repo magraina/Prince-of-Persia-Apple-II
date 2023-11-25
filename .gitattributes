@@ -2,3 +2,5 @@
 *.S crlf diff
 LICENSE crlf diff
 README.mkd crlf diff
+*.md crlf diff
+*.git* crlf diff
