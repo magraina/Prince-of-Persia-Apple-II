@@ -19,10 +19,10 @@
 
 - It checks if it is a Apple IIgs and sets specific setings for the display (Super hi-res only if IIGS) ([MASTER:line:215](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/01%20POP%20Source/Source/MASTER.S#L215) & [GRAFIX:line:2015](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/01%20POP%20Source/Source/GRAFIX.S#L2015))
 
-- Initialize system (in TOPCTRL:line:120)
- - Centers the Joystic (GRAFIX:line:1232)
- - Modify FASTLAY routines to expect image tables to be in main/auxmem.  SETFAST need be called only once  (e.g., when switching between game & builder) (HIRES:line:1977)
- - Init Game (Initialize vars before starting game) (in TOPCTRL:line:223)
+- Initialize system (in [TOPCTRL:line:120](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/01%20POP%20Source/Source/TOPCTRL.S#L120))
+ - Centers the Joystic ([GRAFIX:line:1232](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/01%20POP%20Source/Source/GRAFIX.S#L1232))
+ - Modify FASTLAY routines to expect image tables to be in main/auxmem.  SETFAST need be called only once  (e.g., when switching between game & builder) ([HIRES:line:1977](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/01%20POP%20Source/Source/HIRES.S#L1977))
+ - Init Game (Initialize vars before starting game) (in [TOPCTRL:line:223](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/01%20POP%20Source/Source/TOPCTRL.S#L223))
  - Sound on
  - Start Game (AttractLoop)
 
@@ -78,18 +78,6 @@ Size/  ADDRESS  / ROM Mem, FW, Flags/    MAIN MEMORY    /       BANK        /  A
  0  | - $0000 - |-------------------|-------------------|                   |-------------------| - $0000
     |------------------------------------------------------------------------------------------------------------
 ```
-    ---
+---
 
-## Game Starts (attract mode)
-- Self-running "attract mode" on MASTER:line:687
-  - Turns music on
-  - Sets Display to double hi-res
-  - Shows Publisher Credits "Broderbund Software Presents"
-  - Shows Publisher Credits "A Game by Jordan Mechner"
-  - Shows Title Screen
-  - Plays the Prolog
-  - Plays Princess Sceene - Princess's room: Vizier starts hourglass
-  - Sets Display to double hi-res
-  - Prolog Part 2
-  - Show Title "Prince of Persia"
-  - Jump to Demo sequence
+### [Next Chapter](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/03-ReverseEngineering-GAME-STARTS.md)

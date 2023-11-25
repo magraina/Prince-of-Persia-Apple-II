@@ -1,4 +1,41 @@
-# Prince of Persia Apple II
+# Prince of Persia Apple II - A Code Review
+
+I tried to reverse engineer this peace of code for some of it's parts, which was quiet interesting!  
+It was a fascinating experience to dive into the world of 6502 Assembly, that mythical game and the game development back in the 80s.  
+Reading the source allowed me to undestand h  but it also renewed my appreciation for things that we take for granted today.
+
+I separated my work through the game code into several files:
+1. [Boot](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/01-ReverseEngineering-BOOT.md) - First boot up from disk
+2. [Master](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/02-ReverseEngineering-MASTER.md) - Main routine that handles data, code loading and starts the game
+3. [Game starts](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/03-ReverseEngineering-GAME-STARTS.md) - The game finaly starts in a somehow demonstration mode intended to attract potential players (attract mode)
+
+
+## Acknowledgment
+I would like thank **Jordan Mechner** for providing that amazing piece of history!  
+Many thanks to **Roger Wagner** which helped me with his book [Assembly Lines: The Complete Book](https://archive.org/details/AssemblyLinesCompleteWagner) to understand the 6502  
+Also many thanks to **Fabien Sanglard** for providing a really [good review of the PoP code](https://fabiensanglard.net/prince_of_persia/index.php), which helped me a lot to get into the code  
+
+## Related Links for Learning and Understanding Apple II - 6502 Assembly
+
+### Related Software
+[AppleWin](https://github.com/AppleWin/AppleWin) - AppleWin is a fully-featured emulator supporting different Apple II models and clones  
+[CiderPress](https://a2ciderpress.com/) - Disk Image Utility (To create and Manage Apple II Disk Images)  
+[Merlin Pro Assembler v2.43](https://macgui.com/downloads/?file_id=8140) - Assembly Editor with both ProDOS and DOS 3.3  
+[Merlin Pro Assembler v2.47](https://macgui.com/downloads/?file_id=8143) - Assembly Editor with both ProDOS and DOS 3.3 (Newer GUI of Editor)  
+
+### Related Documents
+[Merlin 8/16 Manual](https://gswv.apple2.org.za/a2zine/Docs/MerlinManual.txt) - TEXT Manual on how to use Merlin  
+[Merlin 8/16 Manual (Newer Version 2.45+)](http://www.apple-iigs.info/doc/fichiers/merlin816.pdf) - Manual on how to use Merlin  
+[Assembly Lines: The COmplete Book](https://archive.org/details/AssemblyLinesCompleteWagner) - Programming Guide to 6502 on the Apple II  
+[Apple DOS 3.3 - Tipps und Tricks](https://ia904602.us.archive.org/31/items/apple-dos-33-tips-tricks/AppleDOS33_Tips&Tricks.pdf) - Hilfe rund um Befehle in Apple DOS (German)  
+
+### Related Vidoes
+[Quick Introduction Apple II Assembly Programming with Merlin on AppleWin - Getting Started](https://www.youtube.com/watch?v=GG6tfYyzzbM) - Simple Introduction on how to set up AplleWin etc.  
+
+
+---
+---
+# Original Repository Text
 
 Some background: This archive contains the source code for the original Prince of Persia game that I wrote on the Apple II, in 6502 assembly language, between 1985-89. The game was first released by Broderbund Software in 1989, and is part of the ongoing Ubisoft game franchise.
 
