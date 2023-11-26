@@ -28,7 +28,7 @@
 
 ## Memory Map
 
-```
+```js
 **APPLE //e RAM** - (Memory allocation based on EQ.S and findings in code)
 ---------------------------------------------------------------------------------------------------------------------
 Size/  ADDRESS  / ROM Mem, FW, Flags/    MAIN MEMORY    /       BANK        /  AUXILIARY MEMORY /       BANK        /
