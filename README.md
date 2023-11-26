@@ -23,6 +23,7 @@ Also many thanks to **Fabien Sanglard** for providing a really [good review of t
 [CiderPress](https://a2ciderpress.com/) - Disk Image Utility (To create and Manage Apple II Disk Images)  
 [Merlin Pro Assembler v2.43](https://macgui.com/downloads/?file_id=8140) - Assembly Editor with both ProDOS and DOS 3.3  
 [Merlin Pro Assembler v2.47](https://macgui.com/downloads/?file_id=8143) - Assembly Editor with both ProDOS and DOS 3.3 (Newer GUI of Editor)  
+[VS Code Extension for Merlin 6502 ASM](https://marketplace.visualstudio.com/items?itemName=dfgordon.vscode-language-merlin6502)
 
 ### Related Documents
 [Merlin 8/16 Manual](https://gswv.apple2.org.za/a2zine/Docs/MerlinManual.txt) - TEXT Manual on how to use Merlin  
@@ -30,7 +31,7 @@ Also many thanks to **Fabien Sanglard** for providing a really [good review of t
 [Assembly Lines: The COmplete Book](https://archive.org/details/AssemblyLinesCompleteWagner) - Programming Guide to 6502 on the Apple II  
 [Apple DOS 3.3 - Tipps und Tricks](https://ia904602.us.archive.org/31/items/apple-dos-33-tips-tricks/AppleDOS33_Tips&Tricks.pdf) - Hilfe rund um Befehle in Apple DOS (German)  
 
-### Related Vidoes
+### Related Videos
 [Quick Introduction Apple II Assembly Programming with Merlin on AppleWin - Getting Started](https://www.youtube.com/watch?v=GG6tfYyzzbM) - Simple Introduction on how to set up AplleWin etc.  
 
 
