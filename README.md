@@ -8,7 +8,7 @@ I separated my work through the game code into several files:
 1. [File Structure](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/00-ReverseEngineering-FILE-STRUCT.md) - About the file structures and how to understand them
 2. [Boot](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/01-ReverseEngineering-BOOT.md) - First boot up from disk
 3. [Master](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/02-ReverseEngineering-MASTER.md) - Main routine that handles data, code loading and starts the game
-4. [Game starts](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/03-ReverseEngineering-GAME-STARTS.md) - The game finaly starts in a somehow demonstration mode intended to attract potential players (attract mode)
+4. [Game starts](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/03-ReverseEngineering-GAME-START.md) - The game finaly starts in a somehow demonstration mode intended to attract potential players (attract mode)
 
 
 ## Acknowledgment
