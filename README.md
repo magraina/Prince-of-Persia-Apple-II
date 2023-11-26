@@ -5,9 +5,10 @@ It was a fascinating experience to dive into the world of 6502 Assembly, that my
 Reading the source allowed me to undestand how much work and knowledge went into it and it shows me how grateful we can be for the things we take for granted today.  
 
 I separated my work through the game code into several files:
-1. [Boot](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/01-ReverseEngineering-BOOT.md) - First boot up from disk
-2. [Master](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/02-ReverseEngineering-MASTER.md) - Main routine that handles data, code loading and starts the game
-3. [Game starts](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/03-ReverseEngineering-GAME-STARTS.md) - The game finaly starts in a somehow demonstration mode intended to attract potential players (attract mode)
+1. [File Structure](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/00-ReverseEngineering-FILE-STRUCT.md) - About the file structures and how to understand them
+2. [Boot](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/01-ReverseEngineering-BOOT.md) - First boot up from disk
+3. [Master](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/02-ReverseEngineering-MASTER.md) - Main routine that handles data, code loading and starts the game
+4. [Game starts](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/03-ReverseEngineering-GAME-STARTS.md) - The game finaly starts in a somehow demonstration mode intended to attract potential players (attract mode)
 
 
 ## Acknowledgment
