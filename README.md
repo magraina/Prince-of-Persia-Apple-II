@@ -2,7 +2,7 @@
 
 I tried to reverse engineer this peace of code for some of it's parts, which was quiet interesting!  
 It was a fascinating experience to dive into the world of 6502 Assembly, that mythical game and the game development back in the 80s.  
-Reading the source allowed me to undestand h  but it also renewed my appreciation for things that we take for granted today.
+Reading the source allowed me to undestand how much work and knowledge went into it and it shows me how grateful we can be for the things we take for granted today.  
 
 I separated my work through the game code into several files:
 1. [Boot](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/01-ReverseEngineering-BOOT.md) - First boot up from disk
