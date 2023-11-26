@@ -5,7 +5,7 @@ The Apple II starts to load the fist sectors into the RAM Register $0800
 This part is located in the file BOOT.S
 
 ---
-```
+```js
 **APPLE II RAM**
 ----------------------
 $FFFF - |
@@ -36,7 +36,7 @@ $0000 - |
 
 - start by outputting $01 to the instruction stream ([line:21](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/01%20POP%20Source/Source/BOOT.S#L21)). This will trigger the Apple firmware to automatically load one sector from track:0 to the RAM at $800 and branch there
 
-```
+```js
 **APPLE II RAM**
 -------------------------------------------------------------------------
 $FFFF - |---------------|---------------|               |---------------|
@@ -67,7 +67,7 @@ $0000 - |---------------|---------------|               |---------------|
 - Loads rest of BOOT.S and RWTS18 into RAM - uses RWTS16 to load a bunch of sectors to RAM using skewing table table ([line:79](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/01%20POP%20Source/Source/BOOT.S#L79))
 
 
-```
+```js
 **APPLE II RAM**
 -------------------------------------------------------------------------
 $FFFF - |---------------|---------------|               |---------------|
@@ -96,7 +96,7 @@ $0000 - |---------------|---------------|               |---------------|
 - Load Disk Read/Write Routine RWTS18 from $3000 into memory at $D000 ([line:115](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/01%20POP%20Source/Source/BOOT.S#L115))
 
 
-```
+```js
 **APPLE II RAM**
 -------------------------------------------------------------------------
 $FFFF - |---------------|---------------|               |---------------|
@@ -124,7 +124,7 @@ $0000 - |---------------|---------------|               |---------------|
 - Load then several sectors from disk using RWTS18 Routine and jumps to $EE00 ([line:138](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/01%20POP%20Source/Source/BOOT.S#L138))
 - HIRES.S starts at $EE00
 
-```
+```js
 **APPLE II RAM**
 -------------------------------------------------------------------------
 $FFFF - |---------------|---------------|               |---------------|
@@ -153,7 +153,7 @@ $0000 - |---------------|---------------|               |---------------|
 - HIRES.S directly jumps to to $F880 at begining ([line:13](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/01%20POP%20Source/Source/HIRES.S#L13))
 - MASTER.S starts at $F880
 
-```
+```js
 **APPLE II RAM**
 -------------------------------------------------------------------------
 $FFFF - |---------------|---------------|               |---------------|
