@@ -50,14 +50,14 @@ For example the first `jmp` is referring to `GR` on line `$040C`.
 The advantage of such jump blocks at the start is, that they alsways keep the same address in code even if there are changes in this file.
 So it will be easy to jump from another file to a function that has been programmed in another file, by simply refering to a specific fixed place in memory.
 
-And there comes files like the **ÈQ.S** into the game. This is some part of it:
+And there comes files like the **EQ.S** into the game. This is some part of it:
 
 ```asm
     grafix = $400
 
     dum grafix          => Instructs the Assembler to start with label values at a given index of $400
 
-    gr ds 3             => Therefor the label `gr` starts at $400 and reservse 3 bytes of memory
+    gr ds 3             => Therefore the label `gr` starts at $400 and reservse 3 bytes of memory
     drawall ds 3        => then `drawall` must be at $403 and reservse 3 bytes of memory
     controller ds 3     => $406 + 3 bytes
     ds 3                => $409 + 3 bytes
