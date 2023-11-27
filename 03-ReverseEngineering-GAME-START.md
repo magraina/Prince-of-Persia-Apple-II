@@ -30,7 +30,7 @@
 
   - Shows Author Credits "A Game by Jordan Mechner"
     - basically the same happens as in the previous step
-    - ![image](https://github.com/magraina/Prince-of-Persia-Apple-II/assets/33145691/63c801c7-8af5-48bc-a447-53e0a9e26e35)
+    - ![image](https://github.com/magraina/Prince-of-Persia-Apple-II/assets/33145691/3dd0f5a8-1ddf-4512-875e-dad6e4e4900f)
 
   - Shows Title Screen "Prince of Persia"
     - basically the same happens as in the previous step
