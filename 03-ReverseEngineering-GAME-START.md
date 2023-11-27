@@ -22,12 +22,10 @@
         - Esc to pause, Ctrl-S to turn sound off (which also toggles the previous flags fro the music)
         - Return A = ASCII value (FF for button)
         - It uses a sound library calles Music System II by Kyle Freeman to play sounds ([MSYS II](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/04%20Support/MakeDisk/S/MSYS.S))
+    - - ![image](https://github.com/magraina/Prince-of-Persia-Apple-II/assets/33145691/046ce568-39b3-4715-bf94-9281798c72c7)
+  
     - The Screen get's cleared again ([MASTER:line:764](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/01%20POP%20Source/Source/MASTER.S#L764))
   **Note**: If the player presses a key, than we jump out of the attrack mode (which is basically the prolog and a demo scene) into the gameplay
-  - Shows Publisher Credits "Broderbund Software Presents"
-    - basically the same happens as in the previous step
-    - ![image](https://github.com/magraina/Prince-of-Persia-Apple-II/assets/33145691/046ce568-39b3-4715-bf94-9281798c72c7)
-
   - Shows Author Credits "A Game by Jordan Mechner"
     - basically the same happens as in the previous step
     - ![image](https://github.com/magraina/Prince-of-Persia-Apple-II/assets/33145691/3dd0f5a8-1ddf-4512-875e-dad6e4e4900f)
