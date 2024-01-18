@@ -179,4 +179,4 @@ $0000 - |---------------|---------------|               |---------------|
 ```
 ---
 
-### [Next Chapter](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/02-ReverseEngineering-MASTER.md)
+### [Next Chapter](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/zz%20Reverse%20Engineering/02-ReverseEngineering-MASTER.md)

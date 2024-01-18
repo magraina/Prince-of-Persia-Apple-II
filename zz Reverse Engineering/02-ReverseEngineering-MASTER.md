@@ -87,4 +87,4 @@ Size/  ADDRESS  / ROM Mem, FW, Flags/    MAIN MEMORY    /       BANK        /  A
 ```
 ---
 
-### [Next Chapter](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/03-ReverseEngineering-GAME-START.md)
+### [Next Chapter](https://github.com/magraina/Prince-of-Persia-Apple-II/blob/master/zz%20Reverse%20Engineering/03-ReverseEngineering-GAME-START.md)
